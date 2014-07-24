@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{306C77D1-56CE-4265-8F2E-A047EECDBD02}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GE</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GEAudioClass.cpp" />
+    <ClCompile Include="GECameraClass.cpp" />
+    <ClCompile Include="GECollision.cpp" />
+    <ClCompile Include="GEColor.cpp" />
+    <ClCompile Include="GED3DClass.cpp" />
+    <ClCompile Include="GEFontClass.cpp" />
+    <ClCompile Include="GEGUIClass.cpp" />
+    <ClCompile Include="GEManageClass.cpp" />
+    <ClCompile Include="GEInputClass.cpp" />
+    <ClCompile Include="GEMazeClass.cpp" />
+    <ClCompile Include="GEMesh.cpp" />
+    <ClCompile Include="GEShader.cpp" />
+    <ClCompile Include="GEShaderState.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GEmath.cpp" />
+    <ClCompile Include="GESystemClass.cpp" />
+    <ClCompile Include="GETimerClass.cpp" />
+    <ClCompile Include="GEParticleClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GEAudioClass.h" />
+    <ClInclude Include="GECameraClass.h" />
+    <ClInclude Include="GECollision.h" />
+    <ClInclude Include="GEColor.h" />
+    <ClInclude Include="GED3DClass.h" />
+    <ClInclude Include="GEFontClass.h" />
+    <ClInclude Include="GEGUIClass.h" />
+    <ClInclude Include="GEManageClass.h" />
+    <ClInclude Include="GE.h" />
+    <ClInclude Include="GEInputClass.h" />
+    <ClInclude Include="GELight.h" />
+    <ClInclude Include="GEmath.h" />
+    <ClInclude Include="GEMazeClass.h" />
+    <ClInclude Include="GEMesh.h" />
+    <ClInclude Include="GEShader.h" />
+    <ClInclude Include="GEShaderState.h" />
+    <ClInclude Include="GESystemClass.h" />
+    <ClInclude Include="GETimerClass.h" />
+    <ClInclude Include="GEParticleClass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\CBuffer.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\ColorShader.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\CubeMapShader.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\Lights.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\LightShader.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\TexShader.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Fog.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Struct.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\SnowShader.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\MazeShader.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\QuadShader.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\FontShader.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

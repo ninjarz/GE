@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\GE">
+      <UniqueIdentifier>{858194ad-a7dc-430f-8c14-62fce409ef72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GE">
+      <UniqueIdentifier>{1513a597-35e9-40e5-8d53-4e89b217f4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GEShader">
+      <UniqueIdentifier>{1739680c-9500-4fdb-a570-1d34956bddcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GE\Shader">
+      <UniqueIdentifier>{8336566c-04de-472a-b655-f04ba8f1a55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GE\Shader">
+      <UniqueIdentifier>{7960236b-2691-484d-818c-3a7462be3b38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GEmath.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GECameraClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GED3DClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GEInputClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GESystemClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GETimerClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GEMesh.cpp">
+      <Filter>源文件\GE\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GEManageClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GEColor.cpp">
+      <Filter>源文件\GE\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GEShaderState.cpp">
+      <Filter>源文件\GE\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GEParticleClass.cpp">
+      <Filter>源文件\GE\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GEAudioClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GECollision.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GEMazeClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GEFontClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GEShader.cpp">
+      <Filter>源文件\GE\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GEGUIClass.cpp">
+      <Filter>源文件\GE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GEmath.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GECameraClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GED3DClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GEInputClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GESystemClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GETimerClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GELight.h">
+      <Filter>头文件\GE\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GEMesh.h">
+      <Filter>头文件\GE\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GEColor.h">
+      <Filter>头文件\GE\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GEManageClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GE.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GEShaderState.h">
+      <Filter>头文件\GE\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GEParticleClass.h">
+      <Filter>头文件\GE\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GEAudioClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GECollision.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GEMazeClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GEFontClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GEShader.h">
+      <Filter>头文件\GE\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GEGUIClass.h">
+      <Filter>头文件\GE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\ColorShader.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\Lights.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\LightShader.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\TexShader.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\CubeMapShader.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\Fog.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\Struct.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\CBuffer.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\SnowShader.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\MazeShader.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\QuadShader.fx">
+      <Filter>GEShader</Filter>
+    </None>
+    <None Include="Shader\FontShader.fx">
+      <Filter>GEShader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
